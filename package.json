@@ -1,0 +1,37 @@
+{
+  "name": "nodeEc2InstantDeploy",
+  "version": "1.0.1",
+  "description": "package to scp into your ec2 and send github and send ",
+  "main": "index.js",
+  "bin": {
+    "@cercatore/create-prject":"bin/create-project",
+    "create-project":"bin/create-project" 
+  },
+  "publishConfig": {
+    "access":"public"
+  },
+  "author":{
+    "name" : "brubbele bobble",
+    "email" : "claudio.bagnato@rubble.com",
+    "url" : "http://saccior.com/"
+  },
+  "scripts": {
+    "git": "git add . && git commit -m",
+    "git-a":"git -am",
+    "post":"git push origin master",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "repository":{
+    "url" : "git+https://github.com/cercatore/twitch-leaks-asd",
+    "type" : "git"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "bugs":{
+    "url" : "https://github.com/cercatore/nodeEc2InstantDeploy/issues",
+    "email" : "bugs@flyita.app"
+  }
+}
