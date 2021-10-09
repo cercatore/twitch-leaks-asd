@@ -1,7 +1,7 @@
 {
   "name": "nodeEc2InstantDeploy",
   "version": "1.0.1",
-  "description": "package to scp into your ec2 and send github and send ",
+  "description": "package to scp into your ec2 and send github and send \nTLDR:\n",
   "main": "index.js",
   "bin": {
     "@cercatore/create-prject":"bin/create-project",
